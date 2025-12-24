@@ -3,8 +3,10 @@ credentials.json
 token.pickle
 *.pickle
 .env
+.env.local
 *.pem
 *.key
+config.ini
 
 # Virtual environments
 .venv/

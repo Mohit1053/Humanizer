@@ -5,6 +5,9 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![Ollama](https://img.shields.io/badge/Ollama-Required-green.svg)](https://ollama.ai/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/Mohit1053/Humanizer)](https://github.com/Mohit1053/Humanizer/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/Mohit1053/Humanizer)](https://github.com/Mohit1053/Humanizer/stargazers)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## 📋 Overview
 
@@ -191,6 +194,18 @@ Contributions are welcome! Feel free to:
 - Suggest new features
 - Submit pull requests
 - Share prompt improvements
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+- How to fork and set up the project
+- Code style guidelines
+- Commit message format
+- Pull request process
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a detailed history of changes.
 
 ## 📝 License
 
