@@ -7,7 +7,7 @@ import ollama
 import time
 
 # Load sample data
-df = pd.read_csv(r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_merged.csv")
+df = pd.read_csv("final_pledges_merged.csv")
 
 # Test samples (different occupations/styles)
 test_samples = [
@@ -109,7 +109,7 @@ def main():
     
     # Save all results for testing
     results_df = pd.DataFrame(results)
-    results_df.to_csv(r"C:\Users\mohit1\Desktop\Humanizer\test_results.csv", index=False)
+    results_df.to_csv("test_results.csv", index=False)
     
     print("\n" + "=" * 70)
     print("RESULTS SAVED!")

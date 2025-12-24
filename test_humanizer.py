@@ -8,7 +8,7 @@ import ollama
 from datetime import datetime
 
 # Configuration
-INPUT_CSV = r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_merged.csv"
+INPUT_CSV = "final_pledges_merged.csv"
 MODEL = 'llama3:8b'
 TEST_ROWS = 5
 

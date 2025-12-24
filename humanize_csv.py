@@ -13,8 +13,8 @@ from datetime import datetime
 
 # ==================== CONFIGURATION ====================
 # File paths
-INPUT_CSV = r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_merged.csv"
-OUTPUT_CSV = r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_humanized.csv"
+INPUT_CSV = "final_pledges_merged.csv"
+OUTPUT_CSV = "final_pledges_humanized.csv"
 
 # Column settings
 PLEDGE_COLUMN = 'pledge'              # Column to humanize

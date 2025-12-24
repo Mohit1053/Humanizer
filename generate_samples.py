@@ -4,7 +4,7 @@ Generate humanized samples for AI detection testing
 import pandas as pd
 import ollama
 
-df = pd.read_csv(r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_merged.csv")
+df = pd.read_csv("final_pledges_merged.csv")
 
 # Best prompt after research - focuses on pledge-like emotional content
 BEST_PROMPT = """You are rewriting a personal pledge/confession from a working professional.
@@ -65,7 +65,7 @@ for idx in samples:
     })
 
 # Save for easy copy-paste testing
-pd.DataFrame(results).to_csv(r"C:\Users\mohit1\Desktop\Humanizer\samples_to_test.csv", index=False)
+pd.DataFrame(results).to_csv("samples_to_test.csv", index=False)
 
 print("\n" + "=" * 70)
 print("SAMPLES SAVED TO: samples_to_test.csv")

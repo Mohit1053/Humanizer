@@ -5,7 +5,7 @@ These will be saved for you to test on AI detectors
 import pandas as pd
 import ollama
 
-INPUT_CSV = r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_merged.csv"
+INPUT_CSV = "final_pledges_merged.csv"
 df = pd.read_csv(INPUT_CSV)
 
 # Optimized prompt - engineered to bypass AI detectors
@@ -88,7 +88,7 @@ for idx in test_indices:
 
 # Save results
 results_df = pd.DataFrame(results)
-output_file = r"C:\Users\mohit1\Desktop\Humanizer\TEST_SAMPLES.csv"
+output_file = "TEST_SAMPLES.csv"
 results_df.to_csv(output_file, index=False)
 
 print("\n" + "=" * 70)

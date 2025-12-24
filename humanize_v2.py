@@ -14,8 +14,8 @@ from tqdm import tqdm
 from datetime import datetime
 
 # ==================== CONFIGURATION ====================
-INPUT_CSV = r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_merged.csv"
-OUTPUT_CSV = r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_humanized.csv"
+INPUT_CSV = "final_pledges_merged.csv"
+OUTPUT_CSV = "final_pledges_humanized.csv"
 
 PLEDGE_COLUMN = 'pledge'
 NEW_COLUMN = 'humanized_pledge'

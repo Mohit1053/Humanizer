@@ -2,7 +2,7 @@
 import pandas as pd
 import ollama
 
-df = pd.read_csv(r"C:\Users\mohit1\Desktop\Humanizer\final_pledges_merged.csv")
+df = pd.read_csv("final_pledges_merged.csv")
 
 PROMPT = """Rewrite this work pledge to sound like a tired professional venting to a friend late at night.
 
@@ -37,5 +37,5 @@ for i, s in enumerate(samples):
     print(f"HUMANIZED: {h}\n")
     results.append({'original': s, 'humanized': h})
 
-pd.DataFrame(results).to_csv(r"C:\Users\mohit1\Desktop\Humanizer\quick_samples.csv", index=False)
+pd.DataFrame(results).to_csv("quick_samples.csv", index=False)
 print("Saved to quick_samples.csv")
