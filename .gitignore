@@ -1,0 +1,48 @@
+# Credentials & Secrets
+credentials.json
+token.pickle
+*.pickle
+.env
+*.pem
+*.key
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Data (uncomment if needed)
+# downloads/
+# data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output files (optional - uncomment if you don't want to track outputs)
+# *_humanized.csv
+# test_results.csv
