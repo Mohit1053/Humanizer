@@ -1,0 +1,56 @@
+# Credentials & Secrets
+credentials.json
+token.pickle
+*.pickle
+.env
+.env.local
+*.pem
+*.key
+config.ini
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Data (uncomment if needed)
+# downloads/
+# data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output files (keep inputs, exclude generated outputs)
+*_humanized.csv
+samples_to_test.csv
+quick_samples.csv
+TEST_SAMPLES.csv
+
+# Sensitive data files (phone numbers, personal confessions)
+final_pledges_merged.csv
+test_results.csv
