@@ -53,3 +53,4 @@ TEST_SAMPLES.csv
 
 # Keep test results for reference but add to gitignore if contains sensitive data
 # test_results.csv
+*.pyc
